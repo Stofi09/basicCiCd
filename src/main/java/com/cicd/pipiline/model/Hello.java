@@ -5,7 +5,7 @@ public class Hello {
 
     public Hello(String hello){
         this.hello = hello;
-    };
+    }
 
     public String getHello() {
         return hello;
