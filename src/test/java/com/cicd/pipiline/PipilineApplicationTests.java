@@ -10,9 +10,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class PipilineApplicationTests {
 
 	@Test
-	public void testHello(){
-		Hello hello = new Hello("hello");
-		assertEquals(hello.getHello(),"hello");
+	public void testSetHello(){
+		Hello hello = new Hello("Bye");
+		hello.setHello("Hello");
+		assertEquals("Hello",hello.getHello());
 	}
 
 }
