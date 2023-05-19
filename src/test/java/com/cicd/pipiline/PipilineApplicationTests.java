@@ -14,5 +14,11 @@ class PipilineApplicationTests {
 		Hello hello = new Hello("hello");
 		assertEquals(hello.getHello(),"hello");
 	}
+	@Test
+	public void testSetHello(){
+		Hello hello = new Hello("Bye");
+		hello.setHello("Hello");
+		assertEquals("Hello",hello.getHello());
+	}
 
 }
