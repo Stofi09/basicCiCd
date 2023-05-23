@@ -15,14 +15,8 @@ public class Hello {
         this.hello = hello;
     }
 
-    @Override
-    public String toString() {
-        return "Hello{" +
-                "hello='" + hello + '\'' +
-                '}';
-    }
 
     public String shout(){
-        return this.hello;
+        return hello;
     }
 }
