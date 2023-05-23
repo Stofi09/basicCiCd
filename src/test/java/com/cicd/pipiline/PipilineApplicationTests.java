@@ -19,7 +19,7 @@ class PipilineApplicationTests {
 		assertEquals(hello.getHello(),"hello");
 	}
 
-/*	@Test
+	@Test
 	public void testShout(){
 		Hello hello = new Hello("Hello");
 		hello.setHello("Shout");
@@ -27,5 +27,4 @@ class PipilineApplicationTests {
 	}
 
 
- */
 }
